@@ -2,14 +2,15 @@
 \usepackage{tgpagella}
 \ifxetex
   \usepackage{xeCJK}
-  \setCJKmainfont{WenQuanYi Zen Hei}
+  \setCJKmainfont{Source Han Sans CN Regular}
+  \setCJKmonofont{WenQuanYi Micro Hei Mono}
   %\setmainfont[Mapping=tex-text]{TeX Gyre Pagella}
 \fi
 
 \usepackage{titlesec}
-\titleformat{\section}{\huge\bfseries}{\thesection}{1em}{}
+\titleformat{\section}{\huge\bfseries}{\thesection}{2em}{}
 \titlespacing{\section}{0pt}{-2em}{1em}
-\titleformat{\subsection}{\large\bfseries\MakeUppercase}{\thesubsection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\MakeUppercase}{\thesubsection}{2em}{}
 
 %\usepackage{multicol}
 \pagestyle{empty}
@@ -28,3 +29,13 @@
   {\par\vss\egroup\ht\zerobox=0pt \wd\zerobox=0pt \dp\zerobox=0pt
    \box\zerobox}
 
+\usepackage{hyperref}
+\usepackage[svgnames]{xcolor}
+%\definecolor{Blue}{RGB}{64, 120, 192}
+\hypersetup{
+    colorlinks,
+    citecolor=Blue,
+    filecolor=Blue,
+    linkcolor=Blue,
+    urlcolor=Blue
+}

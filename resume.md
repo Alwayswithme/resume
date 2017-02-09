@@ -1,71 +1,84 @@
-Markdown Resumé
+叶锦昌
 ===============
 
-[Markdown](https://raw.github.com/mwhite/resume/master/resume.md) -> [PDF](https://raw.github.com/mwhite/resume/master/resume.pdf), [HTML](http://mwhite.github.com/resume), and more
-<http://github.com/mwhite/resume>
+手机：18503085112  
+Email：<phx13ye@gmail.com>  
+QQ/微信号：284718971  
 
-Interests
----------
-
-*   Creating beautiful resumés from simple Markdown documents
-
-
-Work Experience
+个人信息
 ---------------
 
-*   **Word Processor** (Redmond, WA)
-
-    *Junior Resumé Maker*, 2006 - 2007
-
-    -   Intermingled presentation and content
-    -   Styling was a pain, so either didn't do it or found a half-decent
-        template and didn't mess with it
-
-*   **\LaTeX\ + pdflatex**
-
-    *Senior Resumé Maker*, 2008 - 2010
-
-    -   Edited verbose \LaTeX\ documents in a text editor
-    -   Mixed content and presentation to achieve pixel-perfection
-    -   Installed and configured the unusual TeX setups required by the
-        best-looking \LaTeX\ resumés
-
-*   **LinkedIn, StackOverflow Careers, vizualize.me, etc**
-
-    *Web Resumé Intern*, August 2010
-
-    -   Entered data, adapting to different data models and formatting
-        limitations
-    -   Attempted to customize PDF exports and remove default resumé elements,
-        to no avail
-
-*   **Markdown with Pandoc**
-
-    *Resumé Architect*, February 2011 - present
-
-    -   Write in one format (Markdown), convert to many formats (PDF, HTML, ODT,
-        DOCX, and more)
-    -   Style HTML output with CSS and PDF output with a custom \LaTeX\ header
-    -   Use a simple pre-processor to define per-format operations on the
-        Markdown input or its parts, such as moving contact information to the
-        top right of the page in both HTML and PDF output.
-    -   Use a text-based resumé when needed in a pinch
-    -   Use version control, including free hosting on Github
+*   男/1991
+*   工作年限：3年
+*   本科/华南农业大学/生物技术专业 （ 2010年9月 ~ 2014年6月 ）
+*   技术博客： [alwayswithme.github.io][博客]
+*   GitHub： [github.com/Alwayswithme][GitHub]
 
 
-Education
----------
+工作经历
+---------------
 
-*   **Github University** (World Wide Web)
+*   **深圳市傲冠软件股份有限公司**
 
-    *B.S. in Submodules*, May 2012
+    *开发工程师*， 2014年7月 ~ 至今，参与三个项目的研发和改进
+
+    -   行云管家
+
+        研究云计算厂商的管理界面及其开放API。基于 MongoDB, 设计开发了比价器和日志审计后台模块。发现项目中存在大量权限检查、日志记录、事务提交等重复冗余的代码，通过利用 Spring AOP 的特性将其消除。使用 Spring Data JPA、Shiro、ReactJs 搭建后台管理系统供内部使用。对接主流应用开放平台的登陆、微信扫码支付和支付宝即时到账等接口。
+
+    -   行云服务•易代维
+
+        分析产品所针对目标用户的需求，进行数据库设计，主导项目组使用 Mybatis 框架进行持久层开发。配合项目组组长升级网站架构，完成全站 HTTPS 化，同时部署 Nginx 启用 HTTP/2 支持和将静态资源 CDN 加速，改善网站访问时延。推动组内成员在 AJAX 和 WebSocket 接口中一致以 JSON 作为数据交换格式，减少了前后端之间沟通成本和编码压力。
+
+    -   行云服务•云运维
+
+        用到 SpringMVC 设计 RESTful API，并完善相关缺失文档。参与优化 MySQL 数据库，通 过减少 JDBC 与数据库交互，改进 SQL 慢查询语句，针对全表扫描过多的表添加所需索引等 手段，减轻服务器数据库压力和提高响应速度。还参与了涉及网络编程的行云网关模块，用 Netty 实现协议编解码，心跳与超时处理，加密压缩等功能。还负责了此项目的微信公众号中一部分后台功能的开发。
 
 
-Skills
-------
+开源经验
+---------------
 
-*   Very experienced with Python, Markdown, \LaTeX
+*   提交的补丁和Bug
 
-*   Familiar with GNU Make, bash
+    -   [```Pull Request```][GitHub Pull Request] : 给 Netty 提交两次Pull Request， 给 java-design-patterns 提交单例模式的一种实现
+    -   [```Issue```][GitHub Issue] : 发现 mybatis-3 一个 Bug
+    -   如出现404，请登陆GitHub
+
+*   技术文章
+
+    -   参与翻译文章《[X分钟速成Scala][scala-cn]》
+    -   参与翻译文章《[X分钟速成Bash][bash-cn]》
 
 
+技能清单
+---------------
+
+*   编程语言：Java/JavaScript/Bash/Python
+
+*   Web开发：JSP/HTML/CSS
+
+*   后端框架：Spring/Spring Boot/MyBatis/Guava/Netty
+
+*   开发工具：Vim/IntelliJ IDEA/Nginx/Webpack
+
+*   数据库  ：MySQL/MongoDB/SQLite
+
+*   持续集成：Git/Npm/Maven/Jenkins
+
+*   操作系统：Linux（使用ArchLinux开发，有自己的 VPS 翻墙）
+
+*   英语：通过CET-6，能流畅阅读英语技术文档
+
+
+致谢
+---------------
+
+*   感谢您花时间阅读我的简历，期待能有机会和您共事
+
+
+[博客]: https://alwayswithme.github.io
+[GitHub]: https://github.com/Alwayswithme
+[GitHub Pull Request]: https://github.com/pulls?q=is%3Apr+author%3AAlwayswithme+is%3Aclosed
+[GitHub Issue]: https://github.com/issues?q=is%3Aissue+author%3AAlwayswithme+is%3Aclosed
+[scala-cn]: http://learnxinyminutes.com/docs/zh-cn/scala-cn/
+[bash-cn]: http://learnxinyminutes.com/docs/zh-cn/bash-cn/
